@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Dart",
+        "precio": 10000,
+        "categoria": "Espejos",
+        "imagen": "espejo.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Waves",
+        "precio": 20000,
+        "categoria": "Cuadros",
+        "imagen": "cuadro.png"
+    },    {
+        "id": 3,
+        "nombre": "Colin Black",
+        "precio": 25000,
+        "categoria": "Mesas",
+        "imagen": "mesa.png"
+    },    {
+        "id": 4,
+        "nombre": "Hodor Slim",
+        "precio": 15000,
+        "categoria": "Percheros",
+        "imagen": "perchero.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Scott",
+        "precio": 20000,
+        "categoria": "Mesas",
+        "imagen": "scott.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Murphy",
+        "precio": 17000,
+        "categoria": "Percheros",
+        "imagen": "murphy.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Agnes",
+        "precio": 12000,
+        "categoria": "Espejos",
+        "imagen": "agnes.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Canyons Duo",
+        "precio": 35000,
+        "categoria": "Cuadros",
+        "imagen": "canyons.png"
+    }
+]

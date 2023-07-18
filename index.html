@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <nav class="navBar">
+        <img src="./img/7B734132-E126-4C7D-9C1C-B729F54BD321.jpeg" alt="logo" width="100px" height="60px"> 
+        <h4>Productos</h4>
+    </nav>
+    <main>
+        <form>
+            <input type="text" id="inputBuscar" value="" placeholder="Buscar producto..." >
+        </form>
+        <ul id="categorias">
+            <li><a href="#" class="btn btnCategoria "id="btnTodos">Todos</a></li>
+            <li><a href="#" class="btn btnCategoria">Espejos</a></li>
+            <li><a href="#" class="btn btnCategoria">Cuadros</a></li>
+            <li><a href="#" class="btn btnCategoria">Mesas</a></li>
+            <li><a href="#" class="btn btnCategoria">Percheros</a></li>
+        </ul>
+        <div id="productos">
+            <!-- En este div van a ir los productos que ya tengamos en nuestra base de datos -->
+        </div>
+    </main>
+    <section class="ocultar">
+        <h1><span id="cantidadProducto">0</span></h1>
+        <div id="carrito">
+        <!-- En este div vamos a cargar los productos que voy comprando -->
+        </div>
+        <h3>Total: $ <span id="totalCarrito">0</span></h3>
+        <a href="#" id="botonComprar" class="btn btnComprar oculto">Comprar</a>
+    </section>
+    <footer>
+        <p>@ Ploom Deco. Derechos</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./Js/app.js"></script>
+</body>
+</html>
